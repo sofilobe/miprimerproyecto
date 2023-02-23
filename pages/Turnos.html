@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" href="../imgs/icono.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Turnos</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="../imgs/iconmonstr-eye-check-filled-240.png"
+        alt="Logo de la empresa"
+      />
+      <h1 class="name">Iya Coni de Xapan</h1>
+      <nav>
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a class="nav_link" href="../index.html">Home</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="Trabajos.html">Trabajos</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="Historia.html">Historia</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="Turnos.html">Turnos</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="Contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="title">Turnos</h1>
+    <form action="" class="turn">
+      <fieldset class="form">
+        <legend class="turn-title">Solicite su turno de atención</legend>
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" />
+        </div>
+        <div>
+          <label for="Apellido">Apellido:</label>
+          <input type="text" name="Apellido" />
+        </div>
+        <div>
+          <label for="contacto">Tel:</label>
+          <input type="number" name="contacto" />
+        </div>
+        <div>Presencial</div>
+        <input type="radio" name="modalidad" value="Presencial" />
+        <div>Online</div>
+        <input type="radio" name="modalidad" value="Online" />
+        <div>
+          <label for="Día">Día:</label>
+          <select name="Día" id="Día">
+            <option value="Lunes">Lunes</option>
+            <option value="Martes">Martes</option>
+            <option value="Miércoles">Miércoles</option>
+            <option value="Jueves">Jueves</option>
+            <option value="Viernes">Viernes</option>
+            <option value="Sábado">Sábado</option>
+            <option value="Domingo">Domingo</option>
+          </select>
+        </div>
+        <div>
+          <label for="Horaio"> Horario:</label>
+          <select name="Horario" id="Horario">
+            <option value="18:00 HS">18:00HS</option>
+            <option value="19:00 HS">19:00HS</option>
+            <option value="20:00 HS">20:00HS</option>
+            <option value="21:00 HS">21:00HS</option>
+            <option value="22:00 HS">22:00HS</option>
+          </select>
+        </div>
+        <div>
+          <label for="mensaje">Escriba su consulta</label>
+          <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Envíar" class="boton-send-reset" />
+        <input type="reset" value="Borrar" class="boton-send-reset" />
+      </fieldset>
+    </form>
+    <footer>
+      <div class="footer-text">
+        <p>
+          © 2023 Your Company. All rights reserved. / Creada por Sofia Lobello
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

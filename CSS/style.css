@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Si hay lineas se pone 
+vertical-aline: middle para sacarlas */
+
+/* Agregar la class container en todos los div por debajo de la section 
+width 80%
+marigin 0 */
+.img {
+  max-width: 100%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: #cdb4db;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  text-transform: capitalize;
+  color: blueviolet;
+  font-size: 2rem;
+}
+.nav_item {
+  margin-left: 1.5rem;
+}
+.nav_list {
+  list-style: none;
+  display: flex;
+}
+.nav_link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+.my_photo {
+  text-align: right;
+}
+.display {
+  padding-top: 8rem;
+}
+.display-subtitle {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+.display-subtitle-1 {
+  font-size: 2rem;
+}
+.display-description {
+  font-size: 1.4rem;
+  display: line;
+  text-align: left;
+  display: inline-block;
+}
+.display-naipes-title {
+  text-align: center;
+  font-size: 2rem;
+}
+.display-naipes-box {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.box1 {
+  display: inline-block;
+  padding: 1rem;
+  background-color: aqua;
+}
+
+.box2 {
+  display: inline-block;
+  padding: 1rem;
+  background-color: aquamarine;
+}
+.box3 {
+  display: inline-block;
+  padding: 1rem;
+  background-color: rgb(82, 238, 238);
+}
+.box4 {
+  display: inline-block;
+  padding: 1rem;
+  background-color: cornflowerblue;
+}
+footer {
+  background-color: grey;
+  padding: 2rem;
+}
+.footer-text {
+  text-align: center;
+}
+/* Trabajos */
+.title {
+  text-align: center;
+  font-size: medium;
+  text-transform: capitalize;
+}
+.work-subtitle {
+  text-transform: capitalize;
+  text-align: left;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.photos-work {
+  text-align: center;
+  text-decoration: overline;
+  font-size: xx-small;
+}
+/* Historia */
+.photo-xapana {
+  background-image: url(https://umbandaead.blog.br/wp-content/uploads/2016/12/xapana02.jpg);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.sub-title-u {
+  text-transform: capitalize;
+  text-align: left;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.sub-title-v {
+  font-weight: 500;
+  font-style: italic;
+  color: blue;
+}
+.video-umb {
+  text-align: right;
+}
+/* Turnos */
+.turn {
+  text-align: center;
+}
+.turn-title {
+  font-weight: 700;
+  background-color: #ade8f4;
+  font-size: 1.5rem;
+}
+
+/* Contacto */
+.title-perso {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.maps {
+  text-align: center;
+}
+.whatsapp {
+  text-align: left;
+  font-weight: 900;
+}
+.whatsapp-a i {
+  color: green;
+  text-align: left;
+  font-size: 5rem;
+}
