@@ -3,12 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* Si hay lineas se pone 
-vertical-aline: middle para sacarlas */
 
-/* Agregar la class container en todos los div por debajo de la section 
-width 80%
-marigin 0 */
+.menu {
+  background-color: violet;
+}
 .img {
   max-width: 100%;
 }
@@ -161,3 +159,9 @@ footer {
   text-align: left;
   font-size: 5rem;
 }
+/* Si hay lineas se pone 
+vertical-aline: middle para sacarlas */
+
+/* Agregar la class container en todos los div por debajo de la section 
+width 80%
+marigin 0 */
