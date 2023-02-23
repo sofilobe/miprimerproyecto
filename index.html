@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="shortcut icon" href="imgs/icono.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -48,39 +54,54 @@
       </div>
     </header>
     <main>
-      <hr />
-      <section ID="display">
-        <h2 class="display-subtitle">Que te gustaría saber?</h2>
-        <div class="my_photo">
-          <img src="imgs/Mi foto.jpg" alt="Coni" />
-        </div>
-        <h3 class="display-subtitle-1">Sobre mi</h3>
-        <div>
-          <p class="display-description">
-            Lorem ipsum dolor sit amet <span>consectetur</span> adipisicing
-            elit. <strong>Repellat</strong> aut facere dolorem, minus cum quis
-            iusto vitae odit dolore quibusdam veniam dolores vero quos
-            voluptatibus.
-          </p>
-        </div>
-      </section>
-      <section class="display-naipes">
-        <h3 class="display-naipes-title">Elige tus cartas</h3>
-        <section class="display-naipes-box">
-          <div class="box1">
-            <p>Tarot</p>
+      <div class="container">
+        <section ID="display">
+          <h2 class="display-subtitle">Que te gustaría saber?</h2>
+          <div class="my_photo">
+            <img src="imgs/Mi foto.jpg" alt="Coni" />
           </div>
-          <div class="box2">
-            <p>Cartas mágicas</p>
-          </div>
-          <div class="box3">
-            <p>cartas españolas</p>
-          </div>
-          <div class="box4">
-            <p>Cartas gigatas</p>
+          <h3 class="display-subtitle-1">Sobre mi</h3>
+          <div>
+            <p class="display-description">
+              Lorem ipsum dolor sit amet <span>consectetur</span> adipisicing
+              elit. <strong>Repellat</strong> aut facere dolorem, minus cum quis
+              iusto vitae odit dolore quibusdam veniam dolores vero quos
+              voluptatibus.
+            </p>
           </div>
         </section>
-      </section>
+      </div>
+      <div class="container">
+        <section class="display-naipes">
+          <h3 class="display-naipes-title">Elige tus cartas</h3>
+        </section>
+      </div>
+      <div class="container-">
+        <div class="row">
+          <section class="display-naipes-box">
+            <div class="col-md-6 col-xl-3">
+              <div class="box1">
+                <p>Tarot</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <div class="box2">
+                <p>Cartas mágicas</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <div class="box3">
+                <p>cartas españolas</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <div class="box4">
+                <p>Cartas gigatas</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="footer-text">
@@ -89,5 +110,10 @@
         </p>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

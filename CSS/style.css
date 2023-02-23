@@ -74,24 +74,16 @@ header {
   text-align: center;
 }
 .box1 {
-  display: inline-block;
-  padding: 1rem;
   background-color: aqua;
 }
 
 .box2 {
-  display: inline-block;
-  padding: 1rem;
   background-color: aquamarine;
 }
 .box3 {
-  display: inline-block;
-  padding: 1rem;
   background-color: rgb(82, 238, 238);
 }
 .box4 {
-  display: inline-block;
-  padding: 1rem;
   background-color: cornflowerblue;
 }
 footer {
